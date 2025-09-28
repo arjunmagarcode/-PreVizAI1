@@ -1,0 +1,198 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# Node/JS logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Diagnostic reports
+report.*.json
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Coverage
+coverage
+*.lcov
+.nyc_output
+
+# Dependencies
+node_modules/
+.pnp
+.pnp.*
+
+# Yarn Berry
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/versions
+
+# Next.js
+.next/
+.next/cache/
+out/
+
+# Production builds
+build/
+dist/
+
+# TypeScript
+*.tsbuildinfo
+tsconfig.tsbuildinfo
+next-env.d.ts
+
+# Env files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.env.*.local
+
+# Vercel
+.vercel
+
+# Turbo
+.turbo
+
+# Lint/format caches
+.eslintcache
+.stylelintcache
+
+# Misc
+.DS_Store
+*.pem
+
+# OS
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# IDEs
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+!.vscode/tasks.json
+!.vscode/launch.json
+.idea/
+*.iml
+
+# Test artifacts
+cypress/videos/
+cypress/screenshots/
+playwright-report/
+blob-report/
+test-results/
+
+# Package archives
+*.tgz
+
+# Python (backend)
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+backend/integration/.venv/
+
+# Python packaging/build
+.eggs/
+*.egg-info/
+.installed.cfg
+*.egg
+wheels/
+share/python-wheels/
+.pybuilder/
+build/
+# dist/ already listed above
+
+# Python caches and tooling
+.mypy_cache/
+.pytest_cache/
+.ruff_cache/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache/
+pytestdebug.log
+pip-wheel-metadata/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# macOS/Linux extras
+*.swp
+*.swo
+
+# Keep important backend assets tracked
+# (do NOT ignore prompt files or example EMR JSON)
+!backend/integration/LLM_Prompts/
+!backend/integration/exampleEMR.json
+
+# Next.js additional caches
+.swc/
+
+# Editor history plugins
+.history/
+
+# Temp files and folders
+.tmp/
+.tmp/**
+.tmp_* 
+TMP/
+tmp/
+Temp/
+temp/
+*.tmp
+
+# Databases and data dumps
+*.sqlite
+*.sqlite3
+*.db
+*.db-journal
+*.sql
+
+# CSV and large data (limit to backend data folders)
+backend/integration/data/**/*.csv
+backend/integration/data/**/*.tsv
+backend/integration/data/**/*.parquet
+
+# Backend outputs and artifacts
+backend/integration/output/
+backend/integration/outputs/
+backend/integration/outputs/**
+backend/integration/reports/
+backend/integration/reports/**
+backend/integration/transcripts/
+backend/integration/transcripts/**
+backend/integration/logs/
+backend/integration/logs/**
+
+# Backend local env
+backend/.env
+backend/integration/.env
+
+# Sentry/coverage artifacts (python)
+htmlcov/
+coverage.xml
+
+# Compiled native extensions (python)
+*.pyd
+*.pyo
+
+.env
+.env.local
