@@ -27,7 +27,6 @@ Traditional patient intake relies on long, static forms—slow and often incompl
 
 **Our Solution**  
 PreVizAI replaces traditional forms with a natural, voice-powered patient intake experience. Using Cedar OS Voice Capabilities, patients can speak freely while the interface guides them through a conversational workflow. Responses are captured and structured into a medical report, giving doctors a clear, organized summary before the appointment. Some AI-powered follow-ups are handled by GPT-4, enhancing the conversation with smart, context-aware questions where needed.
----
 
 ## 🎯 Key Features & Cedar OS Integration
 
